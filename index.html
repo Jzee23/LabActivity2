@@ -1,0 +1,1256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Toyota Vehicle Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top py-3"
+      style="background-color: rgba(10, 10, 10, 0.92)"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase" href="#home"> Toyota </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse rounded p-3 p-lg-0 mt-2 mt-lg-0"
+          id="mainNav"
+        >
+          <ul class="navbar-nav ms-auto text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="#home"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery"> Gallery </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories"> Categories </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link border border-secondary rounded px-3 ms-lg-2"
+                href="#contact"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div
+        id="carCarousel"
+        class="carousel slide h-100"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div
+              class="hero-slide"
+              style="background-image: url(&quot;gr supra.jpg&quot;)"
+            >
+              <div class="hero-overlay"></div>
+
+              <div class="container hero-content text-center text-white">
+                <p
+                  class="text-danger text-uppercase small mb-2"
+                  style="letter-spacing: 3px"
+                >
+                  Sport Touring
+                </p>
+
+                <h1 class="display-3 fw-bold text-uppercase mb-2">GR Supra</h1>
+
+                <p class="text-white-50 mb-3">
+                  From ₱6.8M<span class="text-danger">*</span>
+                </p>
+
+                <p class="text-white-50 mx-auto mb-4" style="max-width: 560px">
+                  Turbocharged inline-six power, a 50/50 weight balance, and a
+                  chassis tuned for the apex. Built for those who feel the road.
+                </p>
+
+                <a
+                  href="#gallery"
+                  class="btn btn-danger text-uppercase px-4 py-2 fw-bold"
+                >
+                  Explore GR Supra
+                </a>
+
+                <div class="d-flex justify-content-center flex-wrap gap-4 mt-5">
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">382</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      HP · Horsepower
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">4.1s</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      0–100 km/h
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">250</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      Top Speed km/h
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item h-100">
+            <div
+              class="hero-slide"
+              style="background-image: url(&quot;landcruiser.avif&quot;)"
+            >
+              <div class="hero-overlay"></div>
+
+              <div class="container hero-content text-center text-white">
+                <p
+                  class="text-danger text-uppercase small mb-2"
+                  style="letter-spacing: 3px"
+                >
+                  Adventure SUV
+                </p>
+
+                <h1 class="display-3 fw-bold text-uppercase mb-2">
+                  Land Cruiser
+                </h1>
+
+                <p class="text-white-50 mb-3">
+                  From ₱5.9M<span class="text-danger">*</span>
+                </p>
+
+                <p class="text-white-50 mx-auto mb-4" style="max-width: 560px">
+                  Legendary go-anywhere capability, reengineered with a
+                  turbo-hybrid heart. Built to outlast the terrain.
+                </p>
+
+                <a
+                  href="#gallery"
+                  class="btn btn-danger text-uppercase px-4 py-2 fw-bold"
+                >
+                  Explore Land Cruiser
+                </a>
+
+                <div class="d-flex justify-content-center flex-wrap gap-4 mt-5">
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">326</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      HP · Horsepower
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">8.0s</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      0–100 km/h
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">180</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      Top Speed km/h
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item h-100">
+            <div
+              class="hero-slide"
+              style="background-image: url(&quot;bz4x.jpg&quot;)"
+            >
+              <div class="hero-overlay"></div>
+
+              <div class="container hero-content text-center text-white">
+                <p
+                  class="text-danger text-uppercase small mb-2"
+                  style="letter-spacing: 3px"
+                >
+                  Electric Performance
+                </p>
+
+                <h1 class="display-3 fw-bold text-uppercase mb-2">bZ4X</h1>
+
+                <p class="text-white-50 mb-3">
+                  From ₱3.0M<span class="text-danger">*</span>
+                </p>
+
+                <p class="text-white-50 mx-auto mb-4" style="max-width: 560px">
+                  Dual-motor all-wheel drive, instant torque, zero tailpipe
+                  emissions. The future of Toyota performance has arrived.
+                </p>
+
+                <a
+                  href="#gallery"
+                  class="btn btn-danger text-uppercase px-4 py-2 fw-bold"
+                >
+                  Explore bZ4X
+                </a>
+
+                <div class="d-flex justify-content-center flex-wrap gap-4 mt-5">
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">338</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      HP · Horsepower
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">5.3s</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      0–100 km/h
+                    </div>
+                  </div>
+
+                  <div class="vr d-none d-sm-block"></div>
+
+                  <div class="text-center">
+                    <div class="fs-3 fw-bold">436</div>
+
+                    <div class="text-white-50 small text-uppercase">
+                      Range km
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+
+          <span class="visually-hidden"> Previous </span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+
+          <span class="visually-hidden"> Next </span>
+        </button>
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="GR Supra"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carCarousel"
+            data-bs-slide-to="1"
+            aria-label="Land Cruiser"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carCarousel"
+            data-bs-slide-to="2"
+            aria-label="bZ4X"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-dark text-white py-5 border-top border-bottom border-secondary"
+    >
+      <div class="container">
+        <p
+          class="text-danger text-uppercase small text-center mb-4"
+          style="letter-spacing: 3px"
+        >
+          GR Supra · Performance Snapshot
+        </p>
+
+        <div class="row text-center g-4">
+          <div class="col-6 col-md-3">
+            <div class="fs-2 fw-bold">
+              382
+              <small class="text-white-50 fs-6"> HP </small>
+            </div>
+
+            <div class="text-white-50 small text-uppercase">Horsepower</div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="fs-2 fw-bold">
+              4.1
+              <small class="text-white-50 fs-6"> s </small>
+            </div>
+
+            <div class="text-white-50 small text-uppercase">0–100 km/h</div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="fs-2 fw-bold">
+              250
+              <small class="text-white-50 fs-6"> km/h </small>
+            </div>
+
+            <div class="text-white-50 small text-uppercase">Top Speed</div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="fs-2 fw-bold">
+              520
+              <small class="text-white-50 fs-6"> km </small>
+            </div>
+
+            <div class="text-white-50 small text-uppercase">Driving Range</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-5 bg-dark text-white">
+      <div class="container py-4">
+        <p
+          class="text-danger text-uppercase small text-center mb-2"
+          style="letter-spacing: 3px"
+        >
+          The Lineup
+        </p>
+
+        <h2 class="display-5 fw-bold text-uppercase text-center mb-5">
+          Vehicle Gallery
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="gr supra.jpg"
+                  class="card-img-top gallery-img"
+                  alt="GR Supra"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSupra"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Sport Coupe
+                </span>
+
+                <h4 class="fw-bold text-uppercase">GR Supra</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Turbocharged inline-six precision.
+                </p>
+
+                <span class="fw-bold"> ₱6.8M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="gr86.avif"
+                  class="card-img-top gallery-img"
+                  alt="GR86"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalGR86"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Sport Coupe
+                </span>
+
+                <h4 class="fw-bold text-uppercase">GR86</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Lightweight, balanced, driver-first.
+                </p>
+
+                <span class="fw-bold"> ₱2.9M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="gr corolla.jpg"
+                  class="card-img-top gallery-img"
+                  alt="GR Corolla"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalGRCorolla"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Hot Hatch
+                </span>
+
+                <h4 class="fw-bold text-uppercase">GR Corolla</h4>
+
+                <p class="text-white-50 small mb-2">
+                  All-wheel-drive rally-bred hatch.
+                </p>
+
+                <span class="fw-bold"> ₱3.7M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="landcruiser.avif"
+                  class="card-img-top gallery-img"
+                  alt="Land Cruiser"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalLandCruiser"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Adventure SUV
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Land Cruiser</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Legendary off-road capability.
+                </p>
+
+                <span class="fw-bold"> ₱5.9M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="sequoia.jpg"
+                  class="card-img-top gallery-img"
+                  alt="Sequoia"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSequoia"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Full-Size SUV
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Sequoia</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Hybrid muscle for the whole family.
+                </p>
+
+                <span class="fw-bold"> ₱11.9M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="4runner.jpg"
+                  class="card-img-top gallery-img"
+                  alt="4Runner"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal4Runner"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Off-Road SUV
+                </span>
+
+                <h4 class="fw-bold text-uppercase">4Runner</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Body-on-frame, trail-ready.
+                </p>
+
+                <span class="fw-bold"> ₱8.9M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="tacoma.avif"
+                  class="card-img-top gallery-img"
+                  alt="Tacoma"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalTacoma"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Midsize Truck
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Tacoma</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Built for the job and the trail.
+                </p>
+
+                <span class="fw-bold"> ₱3.2M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="hilux.avif"
+                  class="card-img-top gallery-img"
+                  alt="HILUX"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalHilux"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Full-Size Truck
+                </span>
+
+                <h4 class="fw-bold text-uppercase">HILUX</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Twin-turbo power, serious capability.
+                </p>
+
+                <span class="fw-bold"> ₱2.4M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="camry.avif"
+                  class="card-img-top gallery-img"
+                  alt="Camry"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalCamry"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Sedan
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Camry</h4>
+
+                <p class="text-white-50 small mb-2">
+                  All-hybrid, effortless daily comfort.
+                </p>
+
+                <span class="fw-bold"> ₱2.6M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="crown.avif"
+                  class="card-img-top gallery-img"
+                  alt="Crown"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalCrown"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Executive Sedan
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Crown</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Understated, hybrid-powered elegance.
+                </p>
+
+                <span class="fw-bold"> ₱4.2M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="vios.webp"
+                  class="card-img-top gallery-img"
+                  alt="Vios"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalVios"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Hybrid Performance
+                </span>
+
+                <h4 class="fw-bold text-uppercase">Vios Hybrid</h4>
+
+                <p class="text-white-50 small mb-2">
+                  Reinvented, sharper, and quicker.
+                </p>
+
+                <span class="fw-bold"> ₱1.4M </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div
+              class="card bg-black text-white border-secondary h-100 card-hover"
+            >
+              <div class="gallery-img-wrap">
+                <img
+                  src="bz4x.jpg"
+                  class="card-img-top gallery-img"
+                  alt="bZ4X"
+                />
+
+                <div class="gallery-overlay">
+                  <button
+                    class="btn btn-outline-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalBZ4X"
+                  >
+                    View Details
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-secondary text-uppercase mb-2">
+                  Electric Performance
+                </span>
+
+                <h4 class="fw-bold text-uppercase">bZ4X</h4>
+
+                <p class="text-white-50 small mb-2">
+                  All-electric, all-weather confidence.
+                </p>
+
+                <span class="fw-bold"> ₱3.0M </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="py-5 bg-black text-white">
+      <div class="container py-4">
+        <p
+          class="text-danger text-uppercase small text-center mb-2"
+          style="letter-spacing: 3px"
+        >
+          Browse By Type
+        </p>
+
+        <h2 class="display-5 fw-bold text-uppercase text-center mb-5">
+          Explore Our Collection
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img src="gr.png" class="card-img-top" alt="Sports Cars" />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">Sports Cars</h4>
+
+                <p class="text-white-50 small">
+                  GR Supra, GR86, GR Corolla — the GR performance line.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  3 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img src="suv.jpg" class="card-img-top" alt="SUVs" />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">SUVs & Crossovers</h4>
+
+                <p class="text-white-50 small">
+                  Land Cruiser, Sequoia, 4Runner — built for every terrain.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  3 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img src="truck.jpg" class="card-img-top" alt="Trucks" />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">Pickup Trucks</h4>
+
+                <p class="text-white-50 small">
+                  Tacoma and Tundra — capability for work and play.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  2 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img
+                src="hybrid.jpg"
+                class="card-img-top"
+                alt="Hybrid and Electric"
+              />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">Hybrid & Electric</h4>
+
+                <p class="text-white-50 small">
+                  Prius and bZ4X — efficiency without compromise.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  2 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img src="sedan.jpg" class="card-img-top" alt="Sedans" />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">Sedans</h4>
+
+                <p class="text-white-50 small">
+                  Camry and Crown — refined comfort, everyday reach.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  2 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="card bg-dark text-white border-secondary h-100 card-hover"
+            >
+              <img src="off.png" class="card-img-top" alt="Off-Road" />
+
+              <div class="card-body">
+                <h4 class="fw-bold text-uppercase">Off-Road & Adventure</h4>
+
+                <p class="text-white-50 small">
+                  Trail-ready builds for wherever the road ends.
+                </p>
+
+                <p class="text-white-50 small text-uppercase mb-3">
+                  2 Vehicles
+                </p>
+
+                <a href="#gallery" class="btn btn-outline-light btn-sm">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 bg-dark text-white">
+      <div class="container py-4">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <img
+              src="toyo.jpg"
+              class="img-fluid rounded border border-secondary"
+              alt="Toyota engineering"
+            />
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <p
+              class="text-danger text-uppercase small mb-2"
+              style="letter-spacing: 3px"
+            >
+              Our Story
+            </p>
+
+            <h2 class="display-5 fw-bold text-uppercase mb-3">
+              Engineering the Future of Performance
+            </h2>
+
+            <h5 class="text-danger text-uppercase">Toyota Philippines</h5>
+
+            <p class="text-white-50">
+              Toyota Motor Philippines Corporation (TMP) marked thirty-five
+              years of operations in the Philippines with a celebration with
+              public and private partners during an anniversary event held at
+              the Grand Hyatt Manila in Bonifacio Global City.
+            </p>
+
+            <div class="row text-center g-4 mt-2">
+              <div class="col-6 col-md-3">
+                <div class="border-top border-secondary pt-3">
+                  <div class="fs-3 fw-bold">1937</div>
+
+                  <div class="text-white-50 small text-uppercase">Founded</div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <div class="border-top border-secondary pt-3">
+                  <div class="fs-3 fw-bold">170+</div>
+
+                  <div class="text-white-50 small text-uppercase">
+                    Countries
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <div class="border-top border-secondary pt-3">
+                  <div class="fs-3 fw-bold">10M+</div>
+
+                  <div class="text-white-50 small text-uppercase">
+                    Built Yearly
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <div class="border-top border-secondary pt-3">
+                  <div class="fs-3 fw-bold">#1</div>
+
+                  <div class="text-white-50 small text-uppercase">
+                    Sales Leader
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-black text-white">
+      <div class="container py-4">
+        <p
+          class="text-danger text-uppercase small text-center mb-2"
+          style="letter-spacing: 3px"
+        >
+          Reach Out
+        </p>
+
+        <h2 class="display-5 fw-bold text-uppercase text-center mb-5">
+          Get in Touch
+        </h2>
+
+        <div class="row g-5">
+          <div class="col-12 col-lg-6">
+            <form>
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label class="form-label text-white-50 text-uppercase small">
+                    Full Name
+                  </label>
+
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white border-secondary"
+                    placeholder="Juan Dela Cruz"
+                  />
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label class="form-label text-white-50 text-uppercase small">
+                    Email
+                  </label>
+
+                  <input
+                    type="email"
+                    class="form-control bg-dark text-white border-secondary"
+                    placeholder="you@example.com"
+                  />
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label class="form-label text-white-50 text-uppercase small">
+                    Phone
+                  </label>
+
+                  <input
+                    type="tel"
+                    class="form-control bg-dark text-white border-secondary"
+                    placeholder="+63 900 000 0000"
+                  />
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label class="form-label text-white-50 text-uppercase small">
+                    Subject
+                  </label>
+
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white border-secondary"
+                    placeholder="I'm interested in..."
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label text-white-50 text-uppercase small">
+                    Message
+                  </label>
+
+                  <textarea
+                    class="form-control bg-dark text-white border-secondary"
+                    rows="4"
+                    placeholder="Tell us what you're looking for."
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button
+                    type="submit"
+                    class="btn btn-danger w-100 text-uppercase fw-bold py-2"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="bg-dark border border-secondary rounded p-4 h-100">
+              <h4 class="fw-bold text-uppercase mb-3">Toyota</h4>
+
+              <p class="text-white-50 mb-2">
+                📍 GR Performance Center, Makati City, Philippines
+              </p>
+
+              <p class="text-white-50 mb-2">✉️ @toyota.ph</p>
+
+              <p class="text-white-50 mb-3">📞 +63 900 000 0000</p>
+
+              <p
+                class="text-white-50 small border-top border-secondary pt-3 mb-0"
+              >
+                Contact us now if you have car in mind
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-3 border-top border-secondary">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <h3 class="fw-bold text-uppercase">Toyota</h3>
+
+            <p class="text-white-50">Let's Go Places.</p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <h5 class="text-white-50 text-uppercase small mb-3">Quick Links</h5>
+
+            <ul class="list-unstyled d-flex flex-wrap gap-3">
+              <li>
+                <a href="#home" class="text-white-50"> Home </a>
+              </li>
+
+              <li>
+                <a href="#gallery" class="text-white-50"> Gallery </a>
+              </li>
+
+              <li>
+                <a href="#categories" class="text-white-50"> Categories </a>
+              </li>
+
+              <li>
+                <a href="#about" class="text-white-50"> About </a>
+              </li>
+
+              <li>
+                <a href="#contact" class="text-white-50"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="border-secondary my-4" />
+
+        <p class="text-white-50 small mb-0 text-center">
+          © 2026 Joseph Zoe Estaillo 2 IT C
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
